@@ -1,0 +1,14 @@
+﻿<Window x:Class="Codescovery.StBrowser.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Codescovery.StBrowser.App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" UseLayoutRounding="True" SnapsToDevicePixels="True">
+    <Grid SnapsToDevicePixels="True" >
+        <TabControl Name="BrowserTabs" Background="#222222" FontFamily="OCR-A BT" SnapsToDevicePixels="True">
+            <TabItem  Name="AddNewTab" Header="+" MaxHeight="60"  PreviewMouseDown ="AddNewTab_OnPreviewMouseDown"></TabItem>
+        </TabControl>
+    </Grid>
+</Window>
